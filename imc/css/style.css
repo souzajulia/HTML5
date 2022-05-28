@@ -1,0 +1,267 @@
+body{
+    font-family: 'Constantia';
+    letter-spacing: 1px;
+    word-spacing: 0.9px;
+    background-color: rgb(210, 234, 255);
+    overflow-x: hidden;
+}
+
+header{
+    border:3px solid rgb(122, 202, 255);
+    border-collapse: collapse;
+    display: flex;
+    flex-wrap:wrap;
+    align-items:center;
+    text-align: center;
+}
+
+#logo{
+    height: 90px;
+    display:flex;
+    display: inline-block;
+    margin: 5px 25px 5px 30px;
+}
+
+header h1{
+    color:rgb(119, 151, 255);
+    font-size: 38px;
+    font-weight: bolder;
+    text-shadow: rgb(10, 45, 109);
+}
+.menu-principal{
+    background-color: rgb(45, 96, 190);
+    font-size: 24px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    padding: 15px 40px;
+    margin: 10px 0;
+    text-align: center;
+    height: 60px;
+}
+.menu-principal li{
+    display:flex;
+    display: inline-block;
+}
+.menu-principal a{
+    color:rgb(243, 243, 243);
+}
+.menu-principal a:hover{
+    color:rgb(2, 2, 97);
+    font-size: 28px;
+    text-decoration: underline;
+}
+#educacao {
+    text-align: center;
+    color:rgb(2, 2, 80);
+    display:inline-block;
+    width: 75%;
+    box-sizing: border-box;
+    height:100%;
+}
+#educacao img{
+    max-width: 700px;
+    margin: 50px 80px -10px 0px;
+}
+#educacao p{
+    box-shadow: rgb(28, 32, 88);
+    font-size:18px;
+    margin:15px 10px;
+    text-indent: 4em;
+    text-align: justify;
+    line-height: 1.8em;
+    padding:2px 120px;
+    display: inline-block;
+    width: 80%;
+    font-weight:bold;
+}
+.saudavel-img {
+    float: right;
+    width: 20%;
+}
+.saudavel-img img{
+    max-width: 650px;
+    margin-left: -90px;
+    padding-top: 20px;
+}
+.footer-content {
+    font-size: 18px;
+    color:rgb(113, 149, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    margin: 50px 0px 20px;
+    width:100%;
+}
+.footer-content img{
+    width: 40px;
+    margin-right: 20px;
+}
+
+
+
+
+
+#content-sobre{
+    text-align:center;
+    color:rgb(2, 15, 39);
+    display: inline-block;
+    width: 95%;
+    box-sizing: border-box;
+    height:60%;
+}
+#content-sobre p{
+    background-color: rgb(45, 96, 190);
+    BOX-SHADOW: 2PX 2PX 10px rgb(40, 58, 138);
+    font-size:18px;
+    margin: 30px 5px;
+    text-indent:4em ;
+    text-align: justify;
+    line-height: 2.0em;
+    padding: 2px 80px;
+    display: inline-block;
+    width: 100%;
+    font-weight: bold;
+}
+#content-sobre h3{
+    color:rgb(45, 96, 190);
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration:underline;
+    margin-bottom: 50px;
+}
+
+
+
+.novidades{
+    background-color: aqua;
+    padding: 50px;
+    text-align:center;
+}
+.novidades hr{
+    box-shadow: -8px 5px 10px rgb(40, 58, 138);
+    width:70%;
+    height:5px;
+    margin:0px 15% 40px;
+}
+#content-novidades{
+    text-align: center;
+    align-content: center;
+    align-self: center;
+}
+#content-novidades article{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#content-novidades h3{
+    color:rgb(45, 96, 190);
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin:40px 20px 50px;
+}
+#content-novidades p {
+    background-color: rgb(45, 96, 190);
+    box-shadow:-3px 2px 15px rgb(119, 151, 255);
+    font-size: 18px;
+    margin: 30px 30px;
+    text-indent: 4em;
+    text-align: justify;
+    line-height: 2.5em;
+    padding: 22px 80px;
+    display:inline-block;
+    width:45%;
+    font-weight:bold;
+}
+#content-novidades img{
+    max-width: 300px;
+    height: 200px;
+    margin:20px;
+}
+
+
+
+#calc-imc{
+    border: 2px solid rgb(40, 58, 138);
+    background-color: rgb(45, 96, 190);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    width: 30%;
+    height: 340px;
+    margin: 120px 40px 100px 100px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+#calc-imc input{
+    width: 60%;
+    height: 40px;
+    margin: 10px 5px 5px;
+    padding: 3px 10px;
+    text-align: center;
+}
+#calc-imc label{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#calc-imc button{
+    width: 60%;
+    font-size:17px;
+    text-align: center;
+    font-weight: bold;
+    padding: 7px 0px 5px;
+    color:rgb(21, 15, 73);
+    margin-top: auto;
+    box-shadow: -4px 4px 5px rgb(3, 3, 65);
+    border-radius: 14px;
+    border: nome;
+    position: relative;
+}
+#calc-imc button:hover{
+    color: rgb(37, 37, 124);
+    background-color:#ffffff;
+    box-shadow: rgb(96, 157, 159);
+    border: 2px solid rgb(37, 37, 124);
+}
+
+
+.result{
+    border:cadetblue;
+    width:40%;
+    height: 300px;
+    padding: 30px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    margin: 122px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.result h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.result div {
+    background-color: rgb(255, 255, 255);
+    box-shadow: -3px 5px 18px rgb(120, 177, 241);
+    max-width: 650px;
+    padding: 10px 15px;
+    height: 400px;
+    display: inline-block;
+}
+.page-result{
+    display: flex;
+}
+.result img{
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+}
